@@ -1,3 +1,5 @@
+@import "navegacion.css";
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -18,6 +20,10 @@ section h2 {
     color: #333;
 }
 
+section ul {
+    list-style: none;
+    padding: 0;
+}
 
 /* Estilos de formulario de contacto */
 form {
