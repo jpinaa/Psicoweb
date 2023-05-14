@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Psicoweb</title>
 </head>
 <body>
-    <h1>Hola, mundo!</h1>
-    <p>Esta es mi primera página web.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido(a) a mi sitio web</h1>
+        <p>Soy psicólogo(a) y estoy aquí para ayudarte.</p>
+        <a href="#contacto" class="btn">Contáctame</a>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Aquí puedes escribir información sobre ti, tu experiencia, tus especialidades, etc.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Terapia individual</li>
+            <li>Terapia de pareja</li>
+            <li>Terapia familiar</li>
+            <li>Asesoramiento emocional</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte conmigo utilizando el siguiente formulario o a través de los datos de contacto proporcionados.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Psicoweb</p>
+    </footer>
 </body>
 </html>
