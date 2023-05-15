@@ -31,7 +31,7 @@ body {
   }
   
   fieldset {
-    margin-left: 640px auto;
+    margin-left: 640px;
     padding: 0.5rem;
     background: rgb(128, 195, 240);
   }
@@ -43,6 +43,34 @@ body {
     justify-content: flex-start;
     gap: 0.5rem;
   }
+
+
+  /* Estilos de formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
 
 footer {
     background-color: #333;
