@@ -2,10 +2,10 @@ class Cnavegacion extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#sobre-mi">Sobre mí</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#sobre-mi">Mi cuenta</a></li>
+      <li><a href="#servicios">Terapeutas</a></li>
+      <li><a href="#contacto">Pacientes</a></li>
       </ul>`;
   }
 }

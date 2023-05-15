@@ -1,10 +1,15 @@
 @import "navegacion.css";
 
+:root {
+    font-family: Arial, sans-serif;
+    --colorNavegacion: rgb(128, 195, 240);
+  }
+
 body {
     max-width: 640px;
     margin: 0 auto;
     padding: 0.5rem;
-    background: rgb(252, 172, 67);
+    background: rgb(245, 244, 243);
   }
   
   header {
@@ -28,7 +33,7 @@ body {
   fieldset {
     margin: 0 auto;
     padding: 0.5rem;
-    background: burlywood;
+    background: rgb(128, 195, 240);
   }
   
   div {
