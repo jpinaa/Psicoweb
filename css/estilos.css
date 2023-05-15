@@ -43,3 +43,10 @@ body {
     justify-content: flex-start;
     gap: 0.5rem;
   }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
