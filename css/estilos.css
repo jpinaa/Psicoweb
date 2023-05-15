@@ -31,7 +31,7 @@ body {
   }
   
   fieldset {
-    margin: 0 auto;
+    margin-left: 640px auto;
     padding: 0.5rem;
     background: rgb(128, 195, 240);
   }

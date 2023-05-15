@@ -5,6 +5,7 @@ class Cnavegacion extends HTMLElement {
       <li><a href="index.html">Inicio</a></li>
       <li><a href="micuenta.html">Mi cuenta</a></li>
       <li><a href="#servicios">Terapeutas</a></li>
+      <li><a href="#servicios">Gestión de pagos</a></li>
       <li><a href="#contacto">Pacientes</a></li>
       <li><a href="#contacto">Vinculación</a></li>
       </ul>`;
