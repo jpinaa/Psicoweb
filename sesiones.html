@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="cmp/navegacion.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Psicoweb</title>
+</head>
+<body>
+
+    <h1>Psicoweb</h1>
+    <c-navegacion></c-navegacion>
+
+     <h1>Seguimiento de Pacientes</h1>
+
+    
+      <main>
+        <h2>Registro de Sesiones y Diagnósticos</h2>
+    
+        <table>
+          <tr>
+            <th>12/04/23</th>
+            <th>Leonardo Perez</th>
+            <th>Diagnóstico: Ansiedad</th>
+            <th>Acciones: Introspección</th>
+          </tr>
+          <tr>
+            <td>13/04/23</td>
+            <td>Carlos Sainz</td>
+            <td>Diagnóstico: TDH</td>
+            <td>
+              <a href="#">Editar</a> |
+              <a href="#">Eliminar</a>
+            </td>
+          </tr>
+          <!-- Repite la estructura de la fila (tr) para cada sesión y diagnóstico registrado -->
+        </table>
+    
+        <h2>Registrar Nueva Sesión</h2>
+    
+        <form>
+          <label for="fecha-sesion">Fecha de la Sesión:</label>
+          <input type="date" id="fecha-sesion" name="fecha-sesion" required>
+    
+          <label for="paciente">Paciente:</label>
+          <select id="paciente" name="paciente" required>
+            <option value="paciente1">Paciente 1</option>
+            <option value="paciente2">Paciente 2</option>
+            <!-- Agrega opciones adicionales para cada paciente -->
+          </select>
+    
+          <label for="diagnostico">Diagnóstico:</label>
+          <textarea id="diagnostico" name="diagnostico" required></textarea>
+    
+          <button type="submit">Registrar Sesión</button>
+        </form>
+      </main>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Psicoweb</p>
+    </footer>
+    
+</body>
+</html>
